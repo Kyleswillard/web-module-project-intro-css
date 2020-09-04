@@ -1,0 +1,17 @@
+/* Used normilize.css to apply a CSS reset, or close to */
+.header_container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+nav ul {
+    list-style: none;
+    flex-direction: row;
+}
+nav a {
+    text-decoration: none;
+    background-color: #FF744E;
+    padding: 5em;
+    margin: 10px;
+}
+
