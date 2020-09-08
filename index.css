@@ -49,30 +49,44 @@ nav li {
 
 nav li a {
     text-decoration: none;
-
-
     margin-top: 2em;
     border-radius: 10px;
 }
 
-#plan {
+.plan {
     background-color: #FF764E;
     color: white;
     padding: 1rem;
 
 }
 
-#learn {
+.learn {
     background-color: #5ED3EB;
     color: white;
     padding: 1rem;
 
 }
 
-#get {
+.get {
     background-color: #FFCD69;
     color: white;
     padding: 1rem;
+}
+/* Stretch Goal: Added Hover Animation */
+.plan:hover {
+    background-color:white;
+    color: #FF764E;
+    border: 1px solid #FF764E;
+}
+.learn:hover {
+    background-color:white;
+    color: #5ED3EB;
+    border: 1px solid #5ED3EB;
+}
+.get:hover {
+    background-color:white;
+    color: #FFCD69;
+    border: 1px solid #FFCD69;
 }
 
 /* End Navigation */
@@ -87,7 +101,7 @@ nav li a {
 
 .image_container {
     margin: 0 3em;
-    height: 25em;
+    height: 18em;
     float: left;
     width: 40%;
     display: block;
@@ -121,14 +135,27 @@ nav li a {
     margin: 0 auto;
 }
 
-#section2 {
-    display: block;
+#section2 {    
     height: 30%;
     color: white;
     background-color: #DDB9A3;
     width: 80%;
     padding: .5em 1.5em;
     margin: 2em 9em;
+}
+#section2 h3{
+    text-align: center;
+}
+#section2 h2{
+    text-align: center;
+}
+#section2 a {
+    color: #FF764E;
+}
+#section2 a:hover {    
+    text-decoration: none;
+    color: #FF764E;
+    font-weight: bolder;
 
 }
 
@@ -156,6 +183,7 @@ nav li a {
 footer {
     width: 100%;
     text-align: center;
+    background-color: #F9E7DC;
 
 
 }
